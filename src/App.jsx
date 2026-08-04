@@ -1,6 +1,6 @@
 import { gsap } from "gsap";
 import{Draggable} from "gsap/Draggable";
-import {Terminal} from "#windows/index.js";
+import {Terminal, Safari, Resume} from "#windows/index.js";
 
 import React from 'react';
 import { Navbar , Welcome ,Dock } from  "#components";
@@ -13,6 +13,8 @@ const App = () => {
            <Welcome/>
            <Dock/>
            <Terminal/>
+           <Safari/>
+           <Resume/>
        </main>
   );
 };
