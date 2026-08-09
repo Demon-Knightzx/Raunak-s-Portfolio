@@ -1,7 +1,7 @@
 import {WindowControls} from "#components/index.js";
 import WindowWrapper from "#hoc/WindowWrapper.jsx";
 import {ChevronLeft, ChevronRight, Copy, MoveRight, PanelLeft, Plus, Search, Share, ShieldHalf} from "lucide-react";
-import {blogPosts} from "#constants/index.js";
+
 
 const Safari = () => {
     return (
@@ -35,26 +35,7 @@ const Safari = () => {
                 </div>
             </div>
 
-            {/* Window content */}
-            {/*<div className="blog">*/}
-            {/*    <h2>My Developer Blog</h2>*/}
 
-            {/*    <div className="space-y-8 mt-6">*/}
-            {/*        {blogPosts.map(({ id, image, title, date, link }) => (*/}
-            {/*            <div key={id} className="blog-post flex items-center gap-4">*/}
-            {/*                <img src={image} alt={title} className="w-12 h-12" />*/}
-
-            {/*                <div className="content">*/}
-            {/*                    <h3>{date}</h3>*/}
-            {/*                    <p>{title}</p>*/}
-            {/*                    <a href={link} target="_blank" rel="noopener noreferrer">*/}
-            {/*                        Check out the full post <MoveRight className="icon-hover"/>*/}
-            {/*                    </a>*/}
-            {/*                </div>*/}
-            {/*            </div>*/}
-            {/*        ))}*/}
-            {/*    </div>*/}
-            {/*</div>*/}
             <div className="blog">
                 <h2>My DSA Journey</h2>
 
